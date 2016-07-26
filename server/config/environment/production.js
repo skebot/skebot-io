@@ -19,6 +19,6 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/skebotio'
+          'mongodb://admin:password@ds031995.mlab.com:31995/skebot-io'
   }
 };
