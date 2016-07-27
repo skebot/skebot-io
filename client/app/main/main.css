@@ -8,7 +8,7 @@
 }
 
 #banner h1 {
-  font-size: 60px;
+  font-size: 600px;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -24,4 +24,27 @@
 
 .navbar-text {
   margin-left: 15px;
+}
+
+
+.navbar-default {
+  background-color: white;
+  border-color: #8e44ad;
+  border-width: thick;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+.btn-primary{
+  background-color: #A569BD;
+  border-color: #A569BD;
+}
+
+.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{
+  background-color:#8e44ad;border-color:#8e44ad
 }
