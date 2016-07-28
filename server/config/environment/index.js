@@ -44,7 +44,8 @@ var all = {
   facebook: {
     clientID:     process.env.FACEBOOK_ID || 'id',
     clientSecret: process.env.FACEBOOK_SECRET || 'secret',
-    callbackURL:  (process.env.DOMAIN || '') + '/auth/facebook/callback'
+    //callbackURL:  (process.env.DOMAIN || '') + '/auth/facebook/callback'
+    callbackURL:  'https://skebot-io.herokuapp.com/auth/facebook/callback'
   },
 
   twitter: {
